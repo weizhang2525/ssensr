@@ -11,7 +11,7 @@ url = 'https://www.ssense.com/en-us/men/product/balenciaga/black-campaign-hoodie
 
 
 def readFile():
-    with open('creditental.txt') as json_file:
+    with open('credential.txt') as json_file:
         data = json.load(json_file)
     return data
 
