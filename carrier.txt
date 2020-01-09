@@ -1,0 +1,11 @@
+{
+    "alltell": "@sms.alltelwireless.com",
+    "att": "@txt.att.net",
+    "boost": "@sms.myboostmobile.com",
+    "cricket": "@mms.cricketwireless.net",
+    "metro": "@mymetropcs.com",
+    "spring": "@messaging.sprintpcs.com",
+    "tmobile": "@tmomail.net",
+    "verizon": "@vtext.com",
+    "virgin": "@vmobl.com"
+}
