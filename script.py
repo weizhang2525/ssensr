@@ -67,6 +67,7 @@ def getSizes(inputSize, url, carrier):
             print("Text sent", time.ctime())
             return inStock
     print("Size not yet in stock", time.ctime())
+    soup.decompose()
     return inStock
 
 def run():
