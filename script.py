@@ -14,7 +14,7 @@ def loadCarrier():
 
 
 def loadJSON():
-    with open('credential.txt') as json_file:
+    with open('credential_wei.txt') as json_file:
         data = json.load(json_file)
     return data
 
@@ -24,7 +24,7 @@ def sendMessage(text, carrier):
 
     email = info["email"]
     pas = info["password"]
-    sms_gateway = info["phone"] + carriers[carrier]
+    sms_gateway = "{}{}".format(info["phone"], carriers[carrier])
 
     smtp = "smtp.gmail.com"
     port = 587
@@ -76,7 +76,7 @@ def run():
     while True:
         if getSizes(size, url, carrier) == True:
             break
-        time.sleep(1)
+        time.sleep(2)
 
 
 if __name__ == '__main__':
