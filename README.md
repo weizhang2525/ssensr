@@ -16,9 +16,9 @@ https://requests.readthedocs.io/en/master/
 You will need to edit the credential.txt file with your email, password, and phone number. If your email is Gmail, you will need to make an application password through Google by following this link: https://support.google.com/accounts/answer/185833?hl=en. Make sure the fields inside the double quotes ("") are changed then save the file. Phone number field does not require a -.
 
 ```
-  "email" : "myemail@gmail.com",
+ 	"email" : "myemail@gmail.com",
 	"password" : "pw_from_google",
-  "phone" : "1111111111"
+ 	"phone" : "1111111111"
 ```
 
 
@@ -48,7 +48,7 @@ python3 script.py
 After running it successfully, the script will prompt you to answer a few questions regarding to what settings you would like to use. Enter your mobile carrier name (check carrier.txt which carriers are correctly supported), link to ssense's URL (starting with https://www.ssense.com), and what size you would like to monitor. You'll know that everything is configured correctly when the script prints out whether the the item is in stock. If it is out of stock, it will print out the time stamp. If it is in stock, you'll recieve a text from your email.
 
 ## Testing
-You can test whether the text is sending to the right location by entering in a valid item that is currently in stock.
+You can test whether the text is sending to the right phone number by entering in a valid item that is currently in stock.
 
 
 
