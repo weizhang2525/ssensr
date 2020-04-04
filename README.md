@@ -45,7 +45,7 @@ You can run this script by calling python3 in terminal or use any IDE of your ch
 python3 script.py
 ```
 
-After running it successfully, the script will prompt you to answer a few questions regarding to what settings you would like to use. Enter in your carrier name, link to ssense's URL (starting with https://www.ssense.com), and which size you would like to monitor. You'll know that everything is configured correctly when the script prints out whether the the item is in stock. If it is out of stock, it will print out the time stamp. If it is in stock, it will text you.
+After running it successfully, the script will prompt you to answer a few questions regarding to what settings you would like to use. Enter your mobile carrier name (check carrier.txt which carriers are correctly supported), link to ssense's URL (starting with https://www.ssense.com), and what size you would like to monitor. You'll know that everything is configured correctly when the script prints out whether the the item is in stock. If it is out of stock, it will print out the time stamp. If it is in stock, you'll recieve a text from your email.
 
 ## Testing
 You can test whether the text is sending to the right location by entering in a valid item that is currently in stock.
